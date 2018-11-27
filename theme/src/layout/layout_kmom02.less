@@ -1,0 +1,163 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+/*.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+*/
+* {
+    box-sizing: border-box;
+}
+
+.figure.figure.right {
+    float: right;
+    margin-left: 8px;
+}
+
+.row {
+    display: block;
+}
+
+.inner-wrap-main {
+    padding-bottom: 48px;
+    overflow: auto;
+}
+
+.inner-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+
+}
+
+.outer-wrap-header {
+    background-color: #ccc;
+    //overflow: auto;
+    .clearfix();
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    width: 20%;
+    float: left;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+/*
+.region-main {
+    display: inline;
+    float: left;
+    margin-left: 3%;
+}
+*/
+.byline {
+    background-color: #b3b3b3;
+    border: 1px solid #999;
+    border-radius: 15px;
+    overflow: auto;
+    width: 500px;
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.figure {
+    display: table;
+    table-layout: fixed;
+}
+
+.figure-pic {
+    float: left;
+    width: 80px;
+}
+
+.byline-text {
+    float: top;
+    margin-left: 90px;
+    padding-left: 30px;
+}
+
+.figure figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
+.figure figcaption p {
+    font-style: italic;
+}
+
+.wrap-all {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.outer-wrap-footer {
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+/*
+.outer-wrap-footer,
+.inner-wrap-footer {
+    color: #fff;
+    background-color: #333;
+}
+*/
+.region-footer {
+    display: inline;
+    float: left;
+    width: 98%;
+}
+
+.footer-column-wrapper {
+    color: #000000;
+    border-bottom: 1px solid #666;
+    padding-bottom: 24px;
+    margin-bottom: 48px;
+}
+
+.footer-column {
+    display: inline;
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+/* Hide submenu, leave this to kmom02 */
+/*
+.rm-desktop ul {
+    display: none;
+}
+*/
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*
+.rm-navbar-max {
+    display: none;
+}
+*/
