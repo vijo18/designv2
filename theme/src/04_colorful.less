@@ -1,0 +1,41 @@
+/*!
+ * Stylesheet for colorful theme.
+ *
+ * This stylesheet is for the design course and kmom03 where we use LESS.
+ */
+
+@import "kmom04.less";
+@import "layout/vgrid_colorful.less";
+
+@backgroundColor: #FF8E52;
+@textColor: #333;
+@fontFamilyBody: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+@fontFamilyHeadings: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+@headerColor: #6F6EB2;
+@footerColor: #8ECC7C;
+
+
+p {
+    font-family: @fontFamilyBody;
+}
+
+h1 {
+    font-family: @fontFamilyHeadings;
+}
+
+html {
+    background-color: @footerColor;
+}
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.wrap-all {
+    background-color: @backgroundColor;
+}
+
+a {
+    color: #cc00cc;
+}

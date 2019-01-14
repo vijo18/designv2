@@ -1,0 +1,38 @@
+/*!
+ * Stylesheet for a minimalistic theme.
+ *
+ * This stylesheet is for the design course and kmom03 where we use LESS.
+ */
+
+@import "kmom04.less";
+@import "layout/vgrid_minimalistic.less";
+
+@backgroundColor: #FFFEF5;
+@textColor: #333;
+@footerTextColor: #d9d9d9;
+@fontFamilyBody: Arial, sans-serif;
+@fontFamilyHeadings: Arial, sans-serif;
+@headerColor: #403F3D;
+@footerColor: #403F3D;
+
+
+p {
+    font-family: @fontFamilyBody;
+}
+
+h1 {
+    font-family: @fontFamilyHeadings;
+}
+
+html {
+    background-color: @footerColor;
+}
+
+body {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.wrap-all {
+    background-color: @backgroundColor;
+}
